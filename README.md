@@ -1,6 +1,6 @@
 # cepfinder
 
-Um projeto para consultar endereços via CEP..
+Um projeto para consultar endereços via CEP utilizando Flutter.
 
 ## Getting Started
 
