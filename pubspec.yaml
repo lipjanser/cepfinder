@@ -27,7 +27,8 @@ dependencies:
   sqflite: ^1.1.0
   rxdart: ^0.21.0
   mvc_pattern: ^3.4.1   
-  flutter_launcher_icons: ^0.7.2+1    
+  flutter_launcher_icons: ^0.7.2+1
+  path_provider: ^1.6.5   
 
 dev_dependencies:
   flutter_test:
