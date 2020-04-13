@@ -38,7 +38,7 @@ class Address {
         gia: json["gia"]);
   }
 
-  static Future<dynamic> retrieveDataApi(String searchtext) async {
+  static Future<dynamic> retrieveDataWS(String searchtext) async {
     final response = await http.get("https://viacep.com.br/ws/$searchtext/json/");
     
     if (response.statusCode == 200) {

@@ -15,7 +15,7 @@ class StorageIO {
     return directory.path;
   }
 
-  //TO DO
+  //TO DO: 
   Future<String> getPath(String path) async {
     final directory = await getApplicationDocumentsDirectory();
 

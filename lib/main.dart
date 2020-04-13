@@ -41,7 +41,7 @@ class _MyHomePageState extends StateMVC<MyHomePage> {
 
   void _retrieveData() {
     setState(() {
-      items = Controller.retrieveDataApi("${_textEditingController.text}");
+      items = Controller.retrieveDataWS("${_textEditingController.text}");
     });
   }
 

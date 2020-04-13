@@ -3,6 +3,6 @@ import 'package:cepfinder/model/model.dart';
 
 class Controller extends ControllerMVC {
 
-  static Future<dynamic> retrieveDataApi(String searchtext) => Model.retrieveDataApi(searchtext);
+  static Future<dynamic> retrieveDataWS(String searchtext) => Model.retrieveDataWS(searchtext);
   
 }
