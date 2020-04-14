@@ -37,8 +37,9 @@ dev_dependencies:
 flutter_icons:
   ios: true
   android: true
-  image_path_ios: "ssets/icon/ic_launcher.png"
-  image_path_android: "ssets/icon/ic_launcher.png"   
+  image_path: "assets/icon/ic_launcher.png"
+  image_path_ios: "assets/icon/ic_launcher.png"  
+  image_path_android: "assets/icon/ic_launcher.png"   
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -50,7 +51,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+  assets: 
+  - assets/icon/ic_launcher.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg

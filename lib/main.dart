@@ -8,7 +8,7 @@ void main() => runApp(CepFinderApp());
 
 /**
  * Author: lipjanser
- * Note: Pode utilizar como guia à vontade, só peço que não copie e cole.
+ * Note: Pode utilizar como guia à vontade, só peço que não copie e cole. xD
  */
 class CepFinderApp extends StatelessWidget {
 
@@ -17,7 +17,7 @@ class CepFinderApp extends StatelessWidget {
     return MaterialApp(
       title: 'CEP FINDER 1.0',
       theme: ThemeData(
-        primarySwatch: Colors.lightGreen,
+        primarySwatch: Colors.indigo,
       ),
       home: MyHomePage(),
     );
